@@ -1,0 +1,22 @@
+{
+  "name": "water-quality-backend",
+  "version": "1.0.0",
+  "description": "Water Quality IoT Backend - MQTT subscriber + Firebase + Alert Engine",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "mqtt": "^5.3.4",
+    "firebase-admin": "^12.0.0",
+    "express": "^4.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.13",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
